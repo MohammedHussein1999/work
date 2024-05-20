@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: #353145;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 70px;
+}
+
+.home a{
+    text-decoration: none;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home a:hover{
+    transition: 0.5s;
+    color: gold;
+    font-size: 50px;
+}
+
+.home a:not(:hover){
+    transition: 0.5s;
+}
+
+.main {
+    padding: 20px;
+}
+
+.comments {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#comment-form {
+    margin-bottom: 10px;
+}
+
+#comment {
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+#comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.video-container{
+    position: relative;
+    width: 100%;
+}
+
+video{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.comments{
+    position: relative;
+    bottom: -37%;
+    left: 43%;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    width: 120px;
+    border-radius: 35px;
+    text-align: center;
+}
+.comments:hover{
+    color:rgba(99, 94, 94, 0.432) ;
+    transition: 0.5s;
+}
+
+.comments a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #edf3ee;
+    font-weight: 600;
+}
+
+.comments a:hover{
+    transition: 0.5s;
+    color: gold;
+    font-size: 28px;
+}
+
+.comments a:not(:hover){
+    transition: 0.5s;
+}

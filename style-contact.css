@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/50602b1a197625b4fd88b862495ff059.jpg);
+}
+
+.contact-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.head{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.head h1{
+    position: inherit;
+    color: aliceblue;
+    left: 23%;
+}
+
+.head a{
+    font-family: "Lalezar", system-ui;  
+    position:relative ;
+    color: #FFFC00;
+    left: 0%;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.contact-item {
+    flex-basis: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-item h2 {
+    color: #333;
+}
+
+.contact-item p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.contact-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.contact-item.snapchat{
+    background-color: #FFFC00;
+}
+
+.contact-item .snapchat-image img {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 15px;
+}
+
+.contact-item .snapchat-image:hover img {
+    opacity: 1;
+}
+

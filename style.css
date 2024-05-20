@@ -1,0 +1,287 @@
+.rubik-uniquifier {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+}
+
+* .lalezar-regular {
+  font-family: "Lalezar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+#head-count{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/Run.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgb(17, 17, 70);
+}
+
+#head-count .navbar{
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#head-count .navbar .logo{
+    margin-left: 20px;
+  }
+  
+  #head-count .navbar .logo a{
+    position: relative;
+    left: -100%;
+    top: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "Lalezar", system-ui;
+  }
+  
+  #head-count .navbar {
+    position: fixed;
+    left: 16%;
+    display: flex;
+    z-index: 10;
+  }
+  
+  #head-count .navbar .nav-list a{
+    text-decoration: none;
+  }
+  
+  #head-count .navbar .nav-list a {
+    font-family: "Lalezar", system-ui;
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  #head-count .navbar .nav-list a:hover {
+    color: rgb(89, 218, 89);
+    transition: 1s;
+  }
+  
+  #head-count .navbar .nav-search {
+    margin-right: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #head-count .navbar .nav-search span {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #head-count .navbar .nav-search button { 
+    font-family: "Lalezar", system-ui;
+    width: 95px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    border: 5px solid #e2dada;
+  }
+  
+  #head-count .navbar .nav-search button:hover {
+    transition: 1s;
+    color: #fff; 
+    background-color: blue  ;
+  }
+  
+  .center{
+    padding: 250px 30px;
+  }
+  
+  .center h2{
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Lalezar", system-ui;
+    font-size: 25px;
+    font-weight: 100;
+    color:rgb(29, 150, 13);
+}
+
+.center h2:hover{
+  transition: 1s;
+  font-size: 35px;
+}
+
+.center h2:not(:hover){
+  transition: 1s;
+}
+
+  .center h1{
+    font-family: "Rubik", sans-serif;
+    /* font-family: "Lalezar", system-ui; */
+    font-size: 30px;
+    font-weight: 100;
+    color:rgb(214, 208, 201);
+}
+
+  .center h1 span{
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Lalezar", system-ui;
+    font-weight: 100;
+    font-size: 30px;
+    color:rgb(18, 194, 27);
+    transition: 1s ease;
+  }
+  
+  .center h1 span:hover{  
+    font-size: 35px;
+    color:rgb(116, 223, 121);
+  }
+  
+  .center h1 span:not(:hover){
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Lalezar", system-ui;
+    font-size: 30px;
+  }
+  
+  .center button {
+    background:none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid yellow;
+    cursor: pointer;
+  }
+  
+  .center button:hover {
+    font-family: "Rubik", sans-serif;
+    transition: 1s ease;
+    color: rgb(32, 201, 10);
+    font-size: 25px;
+    width: 170px;
+    border: 3px solid rgb(79, 226, 35);
+  }
+  
+  .center button:not(:hover) {
+    font-family: "Rubik", sans-serif;
+    transition: 1s;
+  }
+
+  .posters{
+    padding: 70px;
+    width: 93.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img/50602b1a197625b4fd88b862495ff059.jpg);
+    background-position: right top;
+    background-repeat: no-repeat  ;
+  }
+
+  .card{
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+  }
+
+  .poster{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.poster img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  border-radius: 15px;
+}
+
+.datalest{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 1.5em 1.5em 2em;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.459);
+  transition: 1s;
+}
+
+.card:hover .datalest{
+  bottom: 0;
+}
+
+.datalest h1{
+  color: #d4ac26;
+  font-size: 20px;
+}
+
+.datalest p{
+  color: #d4ccb1;
+  font-size: 18px;
+}
+
+.star{
+  display: inline-block;
+}
+
+.star input{
+  display: none;
+}
+
+.star label{
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  transition: 1s;
+}
+
+.star label::before{
+  content: '\2605';
+  font-size: 40px;
+}
+
+.star input:checked ~ label,
+.star label:hover,
+.star label:hover ~ label{
+  color: #f0cb54;
+  transition: 0.3s;
+}
+
+.datalest a{
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.datalest a:hover{
+  transition: 1s;
+  color: #bb3e28;
+  font-size:20px;
+}
+
+.datalest a:not(:hover){
+  transition: 1s;
+}
+
